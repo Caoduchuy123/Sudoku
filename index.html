@@ -9,10 +9,6 @@
     <meta name="theme-color" content="#fff">
     <title>Sudoku Online | HTML, CSS AND JAVASCRIPT</title>
     <link rel="shortcut icon" href="./static/images/icon.png" type="image/x-icon">
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <!-- app css -->
@@ -25,9 +21,13 @@
     <!-- top nav -->
     <nav>
         <div class="nav-container">
-            <a href="#" class="nav-logo">
-                Sudoku
-            </a>
+            <a href="https://caoduchuy123.github.io/Sudoku/#" class="nav-logo" onclick="window.location.reload();
+            // If we needed to force the document to be fetched from the
+            // web server again (such as where the document contents
+            // change dynamically but cache control headers are not
+            // configured properly), Firefox supports a non-standard
+            // parameter that can be set to true to bypass the cache:
+            //window.location.reload(true);">Sudoku</a>
             <div class="dark-mode-toggle" id="dark-mode-toggle">
                 <i class="bx bxs-sun"></i>
                 <i class="bx bxs-moon"></i>
